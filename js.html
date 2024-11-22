@@ -63,11 +63,15 @@ document.getElementById("clickIt").addEventListener("click", myFunction)
 //onclick="dodaj ()"
 function dodaj () {
 let liczbal=parseInt (document.getElementById("liczbal").value);
-let liczba2=parseInt(document.getElementById("liczba2").value); let wynikSum=liczba1+liczba2;
+let liczba2=parseInt(document.getElementById("liczba2").value); 
+let wynikSum=liczba1+liczba2;
 document.getElementById("wynik").innerHTML=wynikSum;
+}
 //addEventListener("click", dodajEventListener)
 function dodajEventListener() {
-let liczbal=parseInt (document.getElementById("liczbal").value); let liczba2=parseInt (document.getElementById("liczba2").value); let wynikSum=liczbal+liczba2;
+let liczbal=parseInt (document.getElementById("liczbal").value); 
+let liczba2=parseInt (document.getElementById("liczba2").value); 
+let wynikSum=liczbal+liczba2;
 document.getElementById("wynik").innerHTML=wynikSum;
 }
 document.getElementById("dodaj").addEventListener("click", dodajEventListener)
