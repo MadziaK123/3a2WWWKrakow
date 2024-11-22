@@ -9,8 +9,11 @@
 <div id="div-id-1">Text strony</div>
 <p id="demo"></p>
 <div>
-Liczba 1 <input type="text" id="liczba1"><br><br> Liczba 2 <input type="text" id="liczba2"><br><br> <button onclick="dodaj ()">DODAJ</button>
-<button id="dodaj">DODAJ EventListener</button> <p id="wynik"></p>
+Liczba 1 <input type="text" id="liczba1"><br><br> 
+Liczba 2 <input type="text" id="liczba2"><br><br> 
+<button onclick="dodaj ()">DODAJ</button>
+<button id="dodaj">DODAJ EventListener</button> 
+<p id="wynik"></p>
 </div>
 <script>
 // alert("Hello world!")
@@ -67,7 +70,7 @@ function dodajEventListener() {
 let liczbal=parseInt (document.getElementById("liczbal").value); let liczba2=parseInt (document.getElementById("liczba2").value); let wynikSum=liczbal+liczba2;
 document.getElementById("wynik").innerHTML=wynikSum;
 }
-document.getElementById("dodaj") .addEventListener("click", dodajEventListener)
+document.getElementById("dodaj").addEventListener("click", dodajEventListener)
 </script>
 </body> 
 </html>
